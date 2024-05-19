@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games & Apps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;       
+        }
+            
+header {
+  background: rgb(0, 0, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: yellow;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+h2{
+  color: white;
+}
+h1{ 
+  color:white;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+h3{
+  color: yellow;
+}
+p{
+  color:yellow;
+}
+p1{
+  color:white;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: yellow;
+  text-decoration: none;
+}
+
+.search {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 140px;
+}
+
+.search input[type="text"]
+{
+  padding: 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+            
+         
+        ..container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .games-section {           
+            white-space: nowrap;
+            margin-bottom: 20px;
+        }
+        .item {
+            display: inline-block;
+            color: yellow;
+            background-color: black;
+            border: 2px solid black; /* Border style and color */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box; /* Include border and padding in the width calculation */
+            padding: 20px;
+            margin-right: 10px; /* Adjust spacing between items */
+            word-wrap: overflow-wrap; /* Allow long words to break */
+        }
+        .item h2 {
+            margin-top: 0;
+        }
+        .item p {
+            margin-bottom: 10px;
+        
+        }
+        .item img {
+            max-width: 100%;
+            height: 200px; /* Set a fixed height for the images */
+            width: 400px;
+            object-fit: cover; /* Maintain aspect ratio and cover entire space */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        
+footer {
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
+
+.footer-logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="Warner_Bros header logo.png" alt="WarnerBros Logo"  class="logo">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#Games.html">Games & Apps</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="tvshows.html">TV Shows</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class='games'>
+        <h1><B>Games</B></h1>
+    </div>
+
+
+    <div class="container">
+        <div class="games-section">
+            <div class="item">
+                <img src="game1.jpeg" alt="Game 1">
+                <h2>Injustice 2</h2>
+                <p>The storyline of "Injustice 2" revolves around a world <br>
+                    where Superman establishes a totalitarian regime <br>
+                    the events of the first game.Batman and his allies <br>
+                    work to rebuild society while struggling against <br>
+                    Superman's regime. Meanwhile,a new threat rod <br>
+                    the form of Brainiac, an extraterrestrial entity <br>
+                    seeks to destroy Earth by ruining mankind lives.</p>
+                <p1>Platform: PC, Xbox, PlayStation</p1><br><P>
+                  <button>BUY NOW</button><br></P>
+            </div>
+            <div class="item">
+                <img src="game4.jpeg" alt="Game 2">
+                <h2>Hogwarts Legacy</h2>
+
+                <p>"Hogwarts Legacy" is an action RPG set in the mandam<br>
+                    Tolkien's universe. Players control Talion, a Ranger to a<br> 
+                    bound to the wraith Celebrimbor. They seek to forge a by<br> 
+                    new Ring of Power to challenge Sauron. The game feat<br>
+                    dynamic enemy encounters, hack-and-slash combat,ages,<br>
+                    and strategy. Players explore an open-world, lead orc<br> 
+                    armies in fortress assaults, and customize Talion's 
+                    abilities.</p>
+
+                <p1>Platform: PC, Xbox, PlayStation</p1><br><P>
+                  <button>BUY NOW</button><br></P>
+            </div>
+            <div class="item">
+                <img src="game3.jpeg" alt="Game 3">
+                <h2>Gotham Knights</h2>
+
+                <p>"Gotham Knights" is an action RPG where players control <br>
+                    Nightwing, Red Hood, and Robin in Gotham City after a  <br>
+                    They investigate his demise and combat rising crime to.<br>
+                    features an open-world Gotham, dynamic combat, cooper<br>
+                    RPG elements, and a compelling storyline."Gotham Knig<br>
+                    an immersive experience in the Batman universe, allow<br>
+                    to take on the roles of iconic characters and fight.</p>
+
+                <p1>Platform: PC, Xbox, PlayStation</p1><br><P>
+                  <button>BUY NOW</button><br></P>
+            </div>
+            
+          
+
+
+            <div class='apps'>
+              <h1><B>APPS</B></h1>
+          </div>
+          
+          
+        </div>
+
+
+       
+
+        <div class="App-section">
+            <div class="item">
+                <img src="app 1 ASS.png" alt="App 1">
+                <h2>ADULT SWIM</h2>          
+                 <P>FREE NOW </P>
+                 <p1>Platform: iOS, Android</p1><br><P>
+                <button>GET NOW</button><br></P>
+            </div> 
+
+            <div class="item">
+              <img src="App 2. DC.jpg" alt="App 2">
+              <h2>DC UNIVERSE</h2>
+              <P>FREE NOW </P>
+              <p1>Platform: iOS, Android</p1><br><P>
+                <button>GET NOW</button><br></P>
+              
+          </div>
+            
+          
+            <div class="item">
+                <img src="App 3 CN.jpg" alt="App 1">
+                <h2>CARTOON NETWORK</h2>
+                <P>FREE NOW </P>
+                <p1>Platform: iOS, Android</p1><br><P>
+                  <button>GET NOW</button><br></P>
+            </div>
+            
+          
+           
+        </div>
+    </div>
+
+    <footer>
+  <img src="IOI.png" alt="WarnerBros Logo" class="footer-logo">
+  <p>&copy; WarnerBros</p>
+  <div class="social-icons">
+    <a href="#"><img src="instagram.jpg" alt="Instagram"></a>
+    <a href="#"><img src="twitter.jpeg" alt="Twitter"></a>
+    <a href="#"><img src="facebook.jpeg" alt="Facebook"></a>
+  </div>
+</footer>
+</body>
+</html>

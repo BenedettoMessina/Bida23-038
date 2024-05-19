@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+ 
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+        outline: none;
+        background: rgb(0, 0, 0);
+    }
+    body{
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        color: white;
+       
+    }
+    section{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: url(background\ image\ 2.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: blur(2px) brightness(30%);
+    }
+    .container{
+        width: 360px;
+        background: black;
+        box-shadow: 0 0 8px gray;
+        opacity: 0.6;
+    }
+    .container form{ 
+        width: 100%;
+        text-align: center;
+        padding: 25px 25px;
+    }
+    form h1{
+        padding: 10px 0;
+    }
+    form .id{
+        position: relative;
+    }
+    .id i{
+        position: absolute;
+        font-size: 20px;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    form input{
+        width: 100%;
+        height: 50px;
+        margin: 4px 0;
+        padding-right: 45px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        background: black;
+        padding: 0 15px;
+        font-size: 20px;
+        }
+     form textarea{
+        padding: 5px 15px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        background: black;     
+        font-size: 20px;
+        width: 100%;
+        margin: 4px 0;
+     }   
+     form button{
+        margin-top: 5px;
+        border: none;
+        background: black;
+        color: yellow;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 800;
+        cursor: pointer;
+        border-radius: 3px;    
+         }
+         form input:focus
+         form textarea:focus{
+            border: 1px solid rgb(0, 0, 0);
+            color:yellow;
+            transition: all 0.3s ease;
+         }
+         form input:focus::placeholder,
+         form textarea:focus::placeholder{
+            padding-left: 4px;
+            color:yellow;
+            transition: all 0.3s ease;
+         }
+         form input:focus +i{
+            color: rgb(0, 0, 0);
+            transition: all 0.3s ease;
+         }
+         
+</style>
+</head>
+
+<body>
+    <section></section>
+    <div class="container">
+         <form>
+            <h1>GIVE YOUR FEEDBACK HERE</h1>
+            <div class="id">
+                <input type="text" placeholder="Full name">
+                <i class="far fa-user">
+                    
+                </i>
+            </div> 
+            <div class="id">
+                <input type="email" placeholder="Email Address">
+                <i class="far fa-envelope">
+                   
+                    
+                </i>
+            </div>
+            <textarea cols="15" rows="5" placeholder="Is there anything you would like to share?"> </textarea>
+            <button>SEND</button>
+                    
+         </form>
+        </body>
+        </html>
+         
